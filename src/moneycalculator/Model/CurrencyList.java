@@ -13,13 +13,13 @@ public class CurrencyList {
     private final Map<String, Currency> currencies = new HashMap<>();
 
     public CurrencyList() {
-        add(new Currency("USD", "Dolar americano", "$"));
+        add(new Currency("USD", "USD", "$"));
         add(new Currency("EUR", "Euro", "€"));
-        add(new Currency("BRL", "Real brasileño", ""));
-        add(new Currency("CAD", "Dolar canadiense", ""));
-        add(new Currency("CHF", "Franco suizo", ""));
-        add(new Currency("CNY", "Yuan chino", ""));
-        add(new Currency("JPY", "Yen", ""));
+        add(new Currency("BRL", "Brazilian Real", "R$"));
+        add(new Currency("CAD", "Canadian dollar", "C$"));
+        add(new Currency("CHF", "‎CHF", "SFr"));
+        add(new Currency("CNY", "Chinese yuan", "‎¥"));
+        add(new Currency("JPY", "Yen", "JP¥"));
     }
 
     private void add(Currency currency) {
